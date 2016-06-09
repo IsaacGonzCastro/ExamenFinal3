@@ -1,8 +1,9 @@
 package busqueda;
 
 public class Busqueda {
-
+    
     public static void main(String[] args) {
+        System.out.println("Introduce numero de digitos ; ");
         int[] numeros = new int[100];
         for (int i = 0; i < numeros.length; i++) {
             numeros[i] = i * 5;
